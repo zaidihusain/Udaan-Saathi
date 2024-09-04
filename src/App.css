@@ -1,0 +1,17 @@
+/* @keyframes slide-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes slide-right {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-slide-left {
+  animation: slide-left 20s linear infinite;
+}
+
+.animate-slide-right {
+  animation: slide-right 20s linear infinite;
+} */
