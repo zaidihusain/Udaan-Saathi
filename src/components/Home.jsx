@@ -1,28 +1,14 @@
-import React, { useRef } from "react";
-import { Button } from "./Button";
+import React, { useEffect, useRef } from "react"; 
+import { Button } from "./Button.jsx";
 import JoinUsSection from "./JoinUsSection";
 import Videowk from "../assets/Videowk.mp4";
-
-
-import {
-  ChevronDown,
-  Search,
-  
-  Code,
-  Paintbrush,
-  BarChart,
-  FileText,
-  HeadphonesIcon,
-  Calculator,
-  HardHat,
-  Zap,
-  FileEdit,
-  Briefcase,
-  Clipboard,
-} from "lucide-react";
-
+import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
-
+import './Chatbot.css';
+import { 
+  Search, Zap, FileEdit, Briefcase, Clipboard, 
+  Code, Paintbrush, BarChart, FileText, HeadphonesIcon, Calculator, HardHat
+} from "lucide-react";
 
 export default function Home() {
   const scrollContainerRef = useRef(null);
@@ -44,6 +30,40 @@ export default function Home() {
     { name: "Finance & Accounting", icon: Calculator },
     { name: "Engineering & Architecture", icon: HardHat },
   ];
+
+  useEffect(() => {
+    const scriptSrc = "https://www.chatbase.co/embed.min.js";
+
+    // Check if the script already exists to avoid duplicate loading
+    if (!document.querySelector(`script[src="${scriptSrc}"]`)) {
+      const script = document.createElement("script");
+      script.src = scriptSrc;
+      script.defer = true;
+      script.setAttribute("chatbotId", "dtEwW7W2VFT7-n_hx9s2W");
+      script.setAttribute("domain", "www.chatbase.co");
+      document.body.appendChild(script);
+    }
+
+    // Configure chatbot settings
+    window.embeddedChatbotConfig = {
+      chatbotId: "dtEwW7W2VFT7-n_hx9s2W",
+      domain: "www.chatbase.co",
+      theme: {
+        primaryColor: "#6B46C1", // Purple color used in buttons
+        backgroundColor: "#1A202C", // Dark background color of the site
+        textColor: "#FFFFFF", // White text color
+        buttonColor: "#6B46C1", // Button color same as your site's buttons
+        buttonHoverColor: "#4C2888" // A slightly darker purple for hover effect
+      }
+    };
+
+    return () => {
+      const script = document.querySelector(`script[src="${scriptSrc}"]`);
+      if (script) {
+        document.body.removeChild(script);
+      }
+    };
+  }, []);
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-900 text-white">
@@ -75,12 +95,11 @@ export default function Home() {
               Explore
              </Button>
              </Link>
-
             </div>
           </div>
         </section>
 
-       
+        {/* Job Tools Section */}
         <section className="py-10 bg-gray-800">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-8 text-white">
@@ -89,20 +108,20 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-4">
               {jobTools.map((tool, index) => (
                 <Link to={`/${tool.name.replace(/\s+/g, '')}`} key={index}>
-                <Button
-                  variant="outline"
-                  className="flex items-center space-x-2 px-4 py-2 rounded-full border-2 border-purple-400 hover:border-purple-500 hover:bg-purple-900 transition-colors duration-300"
-                >
-                  <tool.icon className="h-5 w-5 text-purple-400" />
-                  <span>{tool.name}</span>
-                </Button>
-              </Link>
+                  <Button
+                    variant="outline"
+                    className="flex items-center space-x-2 px-4 py-2 rounded-full border-2 border-purple-400 hover:border-purple-500 hover:bg-purple-900 transition-colors duration-300"
+                  >
+                    <tool.icon className="h-5 w-5 text-purple-400" />
+                    <span>{tool.name}</span>
+                  </Button>
+                </Link>
               ))}
             </div>
           </div>
         </section>
 
-        
+        {/* Browse Talent Section */}
         <section
           className="py-20 bg-cover bg-center relative"
           style={{
@@ -111,7 +130,6 @@ export default function Home() {
           }}
         >
           <div className="absolute inset-0 bg-gray-900 bg-opacity-90"></div>
-          
           <div className="container mx-auto px-4 relative z-10">
             <h2 className="text-3xl font-bold text-center mb-12 text-white">
               Browse Talent by Category
@@ -142,14 +160,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-      
 
-        
+        {/* Join Us Section */}
         <section className="py-10 bg-[#1E1E2F]">
           <JoinUsSection />
-          
-          
-
+          <img src="https://lottie.host/embed/17bd555d-9574-4e4b-9cfe-4c0e01ad5802/QOYrjQr8Lg.json" alt="Img" />
         </section>
       </main>
     </div>

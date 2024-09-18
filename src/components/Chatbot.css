@@ -1,0 +1,38 @@
+/* Chatbot container ka background color */
+#chatbot-container {
+    background-color: #1A202C !important;  /* Website ka dark background color */
+    color: #FFFFFF !important;  /* Text ko white karna */
+  }
+  
+  /* Chatbot ke andar ke buttons */
+  #chatbot-container button {
+    background-color: #6B46C1 !important;  /* Purple button color */
+    color: #FFFFFF !important;  /* White text on button */
+    border: none;  /* Border ko remove karna */
+  }
+  
+  /* Jab button pe hover ho */
+  #chatbot-container button:hover {
+    background-color: #4C2888 !important;  /* Hover pe dark purple color */
+  }
+  
+  /* Chatbot ke headings ko style karna */
+  #chatbot-container h1, 
+  #chatbot-container h2, 
+  #chatbot-container h3 {
+    color: #FFFFFF !important;  /* White color headings */
+  }
+  
+  /* Chatbot ke input fields ko style karna (if any) */
+  #chatbot-container input {
+    background-color: #2D3748 !important;  /* Darker input field background */
+    color: #FFFFFF !important;  /* Input text ko white karna */
+    border: 1px solid #6B46C1 !important;  /* Purple border for input */
+  }
+  
+  /* Chatbot ke response bubble ko style karna */
+  #chatbot-container .chat-response {
+    background-color: #2D3748 !important;  /* Chat bubble ka background */
+    color: #FFFFFF !important;  /* Chat text ko white karna */
+  }
+  

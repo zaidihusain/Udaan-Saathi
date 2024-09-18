@@ -9,6 +9,9 @@ import Explore from './components/Explore.jsx'
 import Home from './components/Home.jsx'
 import LogIn from './components/LogIn.jsx'
 import InterviewPrep from './components/InterviewPrep.jsx'
+import CopilotExtension from './components/CopilotExtension.jsx'
+// import CopilotExtension from './components/CopilotExtension.jsx'
+
 
 
 const router = createBrowserRouter(
@@ -20,6 +23,8 @@ const router = createBrowserRouter(
      <Route path='LogIn' element={<LogIn/>}/>
      <Route path='Explore' element={<Explore/>}/>
      <Route path='InterviewPrep' element={<InterviewPrep/>}/>
+     <Route path='CopilotExtension' element={<CopilotExtension/>}/>
+     
      
     </Route>
   )
