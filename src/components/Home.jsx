@@ -151,7 +151,7 @@ export default function Home() {
                   </p>
                   <Button
                     variant="outline"
-                    className="w-full text-purple-400 border-purple-400 hover:bg-purple-900 hover:text-white hover:border-purple-500 transition-all duration-300"
+                    className="w-full text-purple-400 border-purple-400  hover:bg-purple-900 hover:text-white hover:border-purple-500 transition-all duration-300"
                   >
                     Explore {program.name}
                   </Button>
@@ -164,7 +164,6 @@ export default function Home() {
         {/* Join Us Section */}
         <section className="py-10 bg-[#1E1E2F]">
           <JoinUsSection />
-          <img src="https://lottie.host/embed/17bd555d-9574-4e4b-9cfe-4c0e01ad5802/QOYrjQr8Lg.json" alt="Img" />
         </section>
       </main>
     </div>
