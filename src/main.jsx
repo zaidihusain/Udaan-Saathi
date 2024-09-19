@@ -10,6 +10,7 @@ import Home from './components/Home.jsx'
 import LogIn from './components/LogIn.jsx'
 import InterviewPrep from './components/InterviewPrep.jsx'
 import CopilotExtension from './components/CopilotExtension.jsx'
+import JobMatches from './components/JobMatches.jsx'
 // import CopilotExtension from './components/CopilotExtension.jsx'
 
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
      <Route path='Explore' element={<Explore/>}/>
      <Route path='InterviewPrep' element={<InterviewPrep/>}/>
      <Route path='CopilotExtension' element={<CopilotExtension/>}/>
+     <Route path='JobMatches' element={<JobMatches/>}/>
      
      
     </Route>

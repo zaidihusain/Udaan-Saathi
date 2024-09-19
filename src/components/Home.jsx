@@ -21,6 +21,8 @@ export default function Home() {
     { name: "Interview Prep", icon: Clipboard },
   ];
 
+
+ 
   const programs = [
     { name: "Development and IT", icon: Code },
     { name: "Design & Creative", icon: Paintbrush },
@@ -164,6 +166,9 @@ export default function Home() {
         {/* Join Us Section */}
         <section className="py-10 bg-[#1E1E2F]">
           <JoinUsSection />
+         
+
+    
         </section>
       </main>
     </div>
