@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const JobMatches = () => {
     const categories = [
-        { name: 'Software Development', icon: '💻' },
+        { name: 'SDE-1', icon: '💻' },
         { name: 'Data Science', icon: '📊' },
         { name: 'Graphic Design', icon: '🎨' },
         { name: 'Marketing', icon: '📢' },
