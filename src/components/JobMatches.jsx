@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+// import Animation3 from "../assets/Symbol.png";
+
 
 
 const JobMatches = () => {
@@ -17,7 +19,7 @@ const JobMatches = () => {
         {
           title: 'Data Analyst',
           openings: '370+ Openings',
-          logos: ['https://link-to-logo1.png', 'https://link-to-logo2.png', 'https://link-to-logo3.png'],
+          logos: ['https://cdn.brandfetch.io/ideQwN5lBE/w/496/h/901/theme/dark/symbol.png?k=bfHSJFAPEG', 'https://link-to-logo2.png', 'https://link-to-logo3.png'],
         },
         {
           title: 'Frontend',
