@@ -19,7 +19,7 @@ const JobMatches = () => {
         {
           title: 'Data Analyst',
           openings: '370+ Openings',
-          logos: ['https://cdn.brandfetch.io/ideQwN5lBE/w/496/h/901/theme/dark/symbol.png?k=bfHSJFAPEG', 'https://link-to-logo2.png', 'https://link-to-logo3.png'],
+          logos: ['https://cdn.brandfetch.io/ideQwN5lBE/w/496/h/901/theme/dark/symbol.png?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/id4D-_pnvt/w/400/h/400/theme/dark/icon.png?k=bfHSJFAPEGnpm rundev', 'https://link-to-logo3.png'],
         },
         {
           title: 'Frontend',
