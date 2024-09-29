@@ -19,22 +19,22 @@ const JobMatches = () => {
         {
           title: 'Data Analyst',
           openings: '370+ Openings',
-          logos: ['https://cdn.brandfetch.io/ideQwN5lBE/w/496/h/901/theme/dark/symbol.png?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/id4D-_pnvt/w/400/h/400/theme/dark/icon.png?k=bfHSJFAPEGnpm rundev', 'https://link-to-logo3.png'],
+          logos: ['https://cdn.brandfetch.io/ideQwN5lBE/w/496/h/901/theme/dark/symbol.png?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/id4D-_pnvt/w/400/h/400/theme/dark/icon.png?k=bfHSJFAPEGnpm', 'https://cdn.brandfetch.io/idFw8DodCr/theme/dark/symbol.svg?k=bfHSJFAPEG'],
         },
         {
           title: 'Frontend',
           openings: '250+ Openings',
-          logos: ['https://link-to-logo1.png', 'https://link-to-logo2.png', 'https://link-to-logo3.png'],
+          logos: ['https://cdn.brandfetch.io/idVE84WdIN/theme/dark/logo.svg?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/id_KsyK7J9/theme/dark/logo.svg?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/idnrCPuv87/theme/dark/logo.svg?k=bfHSJFAPEG'],
         },
         {
           title: 'Full-Stack Roles',
           openings: '300+ Openings',
-          logos: ['https://link-to-logo1.png', 'https://link-to-logo2.png', 'https://link-to-logo3.png'],
+          logos: ['https://cdn.brandfetch.io/id4J58sqa_/theme/dark/logo.svg?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/idyeTDctmi/w/800/h/800/theme/dark/icon.png?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/idpa6U9lOp/theme/dark/logo.svg?k=bfHSJFAPEG'],
         },
         {
           title: 'Product Management',
           openings: '246+ Openings',
-          logos: ['https://link-to-logo1.png', 'https://link-to-logo2.png', 'https://link-to-logo3.png'],
+          logos: ['https://cdn.brandfetch.io/id-Wd4a4TS/theme/dark/logo.svg?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/idssig0_jY/theme/dark/logo.svg?k=bfHSJFAPEG', 'https://cdn.brandfetch.io/idJFz6sAsl/theme/dark/logo.svg?k=bfHSJFAPEG'],
         },
       ];
     
