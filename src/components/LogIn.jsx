@@ -159,7 +159,7 @@ const LogInPage = () => {
           <hr className="border-gray-600 w-1/3" />
         </motion.div>
 
-        {/* Social Login Buttons */}
+        {/* Social Login Buttons and design*/}
         <div className="mt-6 flex flex-col space-y-3">
           <Button
             className="w-full py-3 text-white bg-[#4285F4] rounded-full hover:bg-[#357AE8] transition duration-300 shadow-lg hover:shadow-xl"
