@@ -63,7 +63,8 @@ const LogInPage = () => {
         animate="visible"
       >
         <h3 className="text-lg font-semibold mb-2">"Success is not final, failure is not fatal: It is the courage to continue that counts."</h3>
-        <p className="text-sm">- Winston S. Churchill</p>
+        <p className="text-sm">- Aanif Zaidi</p>
+        {/* Winston S. Churchill */}
       </motion.div>
 
       <motion.div
@@ -72,7 +73,7 @@ const LogInPage = () => {
         initial="hidden"
         animate="visible"
       >
-        <h3 className="text-lg font-semibold mb-2">"Your limitation—it’s only your imagination."</h3>
+        <h3 className="text-lg font-semibold mb-2">"Your limitation—it’s only your."</h3>
         <p className="text-sm">- Husain</p>
       </motion.div>
 
