@@ -126,7 +126,7 @@ const LogInPage = () => {
             />
           </div>
 
-          {/* Forgot Password */}
+          {/* Forgot Password for testing purpose*/}
           <motion.div
             className="text-right"
             initial={{ opacity: 0 }}
