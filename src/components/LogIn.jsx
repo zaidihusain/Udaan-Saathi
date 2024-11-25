@@ -76,6 +76,7 @@ const LogInPage = () => {
         <h3 className="text-lg font-semibold mb-2">"Your limitation—it’s only your."</h3>
         <p className="text-sm">- Husain</p>
       </motion.div>
+       {/* hy */}
 
       <motion.div
         className="bg-[#2b2b42] p-8 rounded-lg shadow-lg w-full max-w-md text-center"
