@@ -138,7 +138,7 @@ const LogInPage = () => {
             </a>
           </motion.div>
 
-          {/* Login Button */}
+          {/* Login Button confirmed */}
           <Button
             className="w-full py-3 text-white bg-[#7D3C98] rounded-full hover:bg-[#5a2671] transition duration-300 shadow-lg hover:shadow-xl flex items-center justify-center"
             type="submit"
